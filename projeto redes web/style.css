@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+
+
+header{
+    position: fixed;
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: grid;
+    grid-template-columns: 1fr 600px;
+    gap: 15%;
+    align-items: center;
+     
+
+      & img{
+        width: 101px;
+      }
+      
+}
+
+
+#cabecalho ul{
+    display: grid;
+    grid-template-columns: repeat(3,200px);
+    list-style: none;
+}
